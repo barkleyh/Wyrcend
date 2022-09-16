@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+}
+.inventory {
+
+}
+
+h1 {
+    background: white;
+    color: blue;
+    max-width: 600px;
+    margin: auto
+}
+
