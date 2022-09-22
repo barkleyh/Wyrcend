@@ -14,4 +14,8 @@ class PlayerCharacter extends Model
         parent::__construct($attributes);
 
     }
+
+    public function items() {
+        return $this->hasMany(Item::class);
+    }
 }
